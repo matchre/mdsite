@@ -1,0 +1,74 @@
+site_name: Expériences
+site_url: https://ens-fr.gitlab.io/experience
+repo_url: https://gitlab.com/ens-fr/experience
+edit_uri: tree/master/docs/
+site_description: Base expérimentale de travail avec MkDocs
+docs_dir: docs
+copyright: |
+    Copyleft 🄯 2021 <a href="https://lyc-84-bollene.gitlab.io/chambon/" target="_blank" rel="noopener">Franck CHAMBON</a>
+# Modifier le copyright à votre goût
+
+
+nav:
+    - Votre expérience: index.md
+    - recettes: recettes.md
+    - toto: toto.md
+    - Prérequis: prérequis.md
+
+
+
+
+                                    # JUSTIFICATIONS
+theme:
+    name: material
+    font: false                     # RGPD ; pas de fonte Google
+    language: fr                    # français
+    palette:                        # Palettes de couleurs jour/nuit
+      - scheme: default
+        toggle:
+            icon: material/weather-sunny
+            name: Passer au mode nuit
+      - scheme: slate
+        toggle:
+            icon: material/weather-night
+            name: Passer au mode jour
+    features:
+        - navigation.instant
+        - navigation.tabs
+        - navigation.expand
+        - navigation.top
+        - toc.integrate
+        - header.autohide
+
+
+markdown_extensions:
+    - def_list                      # Les listes de définition.
+    - attr_list                     # Un peu de CSS et des attributs HTML.
+    - footnotes                     # Notes[^1] de bas de page.  [^1]: ma note.
+    - admonition                    # Blocs colorés  !!! info "ma remarque"
+    - pymdownx.details              #   qui peuvent se plier/déplier.
+    - pymdownx.caret                # Passage ^^souligné^^ ou en ^exposant^.
+    - pymdownx.mark                 # Passage ==surligné==.
+    - pymdownx.tilde                # Passage ~~barré~~ ou en ~indice~.
+    - pymdownx.highlight            # Coloration syntaxique du code
+    - pymdownx.inlinehilite         # pour  `#!python  <python en ligne>`
+    - pymdownx.snippets             # Inclusion de fichiers externe.
+    - pymdownx.tasklist:            # Cases à cocher  - [ ]  et - [x]
+        custom_checkbox:    false   #   avec cases d'origine
+        clickable_checkbox: true    #   et cliquables.
+    - pymdownx.tabbed               # Volets glissants.  === "Mon volet"
+    - pymdownx.superfences          # Imbrication de blocs.
+    - pymdownx.keys:                # Touches du clavier.  ++ctrl+d++
+        separator: "\uff0b"
+    - pymdownx.emoji:               # Émojis  :boom:
+        emoji_index:     !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+    social:
+        - icon: fontawesome/brands/github # ou autre
+          link: https://github.com/votreid
+        - icon: fontawesome/brands/gitlab # ou autre
+          link: https://gitlab.com/votreid
+        - icon: fontawesome/brands/discord #ou autre
+          link: https://discord.gg/votrecode
