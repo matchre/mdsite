@@ -16,7 +16,7 @@ nav:
       - installation: python/installation.md
       - installation: python/installation.md
       - installation: python/installation.md
-        - detail: python/detail/installation.md
+      - detail: python/detail/installation.md
 
 
                                     # JUSTIFICATIONS
