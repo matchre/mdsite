@@ -1,19 +1,16 @@
-site_name: Expériences
-site_url: https://ens-fr.gitlab.io/experience
-repo_url: https://gitlab.com/ens-fr/experience
+site_name: MATH & SNT
+site_url: https://sites.google.com/view/mrchretien/accueil
+repo_url: https://github.com/matchre
 edit_uri: tree/master/docs/
 site_description: Base expérimentale de travail avec MkDocs
 docs_dir: docs
-copyright: |
-    Copyleft 🄯 2021 <a href="https://lyc-84-bollene.gitlab.io/chambon/" target="_blank" rel="noopener">Franck CHAMBON</a>
-# Modifier le copyright à votre goût
 
 
 nav:
-    - Votre expérience: index.md
+    - Accueil: index.md
     - recettes: recettes.md
     - toto: toto.md
-    - Prérequis: prérequis.md
+    - Prérequis: prerequis.md
     - test: test.md
 
 
@@ -68,8 +65,5 @@ markdown_extensions:
 extra:
     social:
         - icon: fontawesome/brands/github # ou autre
-          link: https://github.com/votreid
-        - icon: fontawesome/brands/gitlab # ou autre
-          link: https://gitlab.com/votreid
-        - icon: fontawesome/brands/discord #ou autre
-          link: https://discord.gg/votrecode
+          link: https://github.com/matchre
+        
