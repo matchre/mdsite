@@ -1,5 +1,7 @@
 # Welcome to MkDocs
-
+```python
+--8<--- "docs/script/tab.py" <⚠ sans rien, ni espace à la fin>
+```
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 !!! note "Pour une question"
