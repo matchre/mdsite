@@ -10,7 +10,7 @@ nav:
     - Accueil: index.md
     - recettes: recettes.md
     - toto: toto.md
-    - Prérequis: prerequis.md
+    - Prerequis: prerequis.md
     - test: test.md
 
 
